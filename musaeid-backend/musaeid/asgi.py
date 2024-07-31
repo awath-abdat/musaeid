@@ -1,5 +1,5 @@
 """
-ASGI config for musaied project.
+ASGI config for musaeid project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "musaied.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "musaeid.settings")
 
 application = get_asgi_application()
